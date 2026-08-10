@@ -1,0 +1,38 @@
+{
+  "dataset": "Solar p-mode frequency anchors",
+  "source": "Low-degree solar-like oscillation anchors compressed for validating the mode-comb renderer.",
+  "citation": "Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392.",
+  "x_label": "Frequency [microHz]",
+  "y_label": "Power density [relative]",
+  "points": [
+    {
+      "x": 2550,
+      "y": 0.42,
+      "label": "low envelope"
+    },
+    {
+      "x": 2820,
+      "y": 0.78,
+      "label": "p-mode ridge"
+    },
+    {
+      "x": 3090,
+      "y": 1,
+      "label": "nu_max"
+    },
+    {
+      "x": 3360,
+      "y": 0.77,
+      "label": "p-mode ridge"
+    },
+    {
+      "x": 3630,
+      "y": 0.4,
+      "label": "high envelope"
+    }
+  ],
+  "requiredCitations": [
+    "Aerts, C., Christensen-Dalsgaard, J. and Kurtz, D.W., 2010. Asteroseismology. Springer.",
+    "Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392."
+  ]
+}
