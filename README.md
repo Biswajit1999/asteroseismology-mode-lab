@@ -41,3 +41,7 @@ Low-degree solar-like oscillation anchors compressed for validating the mode-com
 
 - Aerts, C., Christensen-Dalsgaard, J. and Kurtz, D.W., 2010. Asteroseismology. Springer.
 - Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392.
+
+## Research Quality Upgrade
+
+See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
