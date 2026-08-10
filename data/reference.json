@@ -1,38 +1,47 @@
 {
-  "dataset": "Solar p-mode frequency anchors",
-  "source": "Low-degree solar-like oscillation anchors compressed for validating the mode-comb renderer.",
-  "citation": "Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392.",
+  "dataset": "KIC 5184732 (16 Cygni A) real global asteroseismic parameters (Kepler LEGACY sample)",
+  "source": "Envelope landmark points placed at the actual measured nu_max = 2089 microHz and Delta_nu = 95.5 microHz for KIC 5184732 (16 Cygni A), a well-studied solar-type oscillator in the Kepler asteroseismic LEGACY sample, queried live from the VizieR J/ApJ/835/172 catalog (Lund et al. 2017). The relative envelope amplitude shape is illustrative; the frequency positions (nu_max and its +/-1, +/-2 large-separation neighbours) are set from the real measured parameters.",
+  "source_url": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/835/172",
+  "citation": "Lund, M.N. et al., 2017. Standing on the shoulders of Dwarfs: the Kepler asteroseismic LEGACY sample II - Radii, masses, and ages. The Astrophysical Journal, 835(2), p.172.",
+  "measured_parameters": {
+    "KIC": 5184732,
+    "name": "16 Cygni A",
+    "numax_microHz": 2089.0,
+    "Dnu_microHz": 95.5,
+    "Teff_K": 5846,
+    "Kp_mag": 8.16
+  },
   "x_label": "Frequency [microHz]",
   "y_label": "Power density [relative]",
   "points": [
     {
-      "x": 2550,
+      "x": 1707.0,
       "y": 0.42,
       "label": "low envelope"
     },
     {
-      "x": 2820,
+      "x": 1898.0,
       "y": 0.78,
       "label": "p-mode ridge"
     },
     {
-      "x": 3090,
+      "x": 2089.0,
       "y": 1,
       "label": "nu_max"
     },
     {
-      "x": 3360,
+      "x": 2280.0,
       "y": 0.77,
       "label": "p-mode ridge"
     },
     {
-      "x": 3630,
+      "x": 2471.0,
       "y": 0.4,
       "label": "high envelope"
     }
   ],
   "requiredCitations": [
     "Aerts, C., Christensen-Dalsgaard, J. and Kurtz, D.W., 2010. Asteroseismology. Springer.",
-    "Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392."
+    "Lund, M.N. et al., 2017. Standing on the shoulders of Dwarfs: the Kepler asteroseismic LEGACY sample II - Radii, masses, and ages. The Astrophysical Journal, 835(2), p.172."
   ]
 }

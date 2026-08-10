@@ -1,4 +1,4 @@
-const LAB={"id":"asteroseismology","title":"Asteroseismology Mode Lab","xLabel":"Frequency [microHz]","yLabel":"Power density [relative]","controls":[["deltaNu","Large separation [microHz]",135.1,70,180,0.1],["nuMax","nu_max [microHz]",3090,1200,4800,10],["linewidth","Line width [microHz]",2.8,0.5,12,0.1],["inclination","Inclination [deg]",45,0,90,1]]};
+const LAB={"id":"asteroseismology","title":"Asteroseismology Mode Lab","xLabel":"Frequency [microHz]","yLabel":"Power density [relative]","controls":[["deltaNu","Large separation [microHz]",95.5,70,180,0.1],["nuMax","nu_max [microHz]",2089,1200,4800,10],["linewidth","Line width [microHz]",2.8,0.5,12,0.1],["inclination","Inclination [deg]",45,0,90,1]]};
 const state={reference:null,params:Object.fromEntries(LAB.controls.map(c=>[c[0],c[2]])),result:null,worker:null,run:0,lastFrame:performance.now(),frames:0};
 const $=id=>document.getElementById(id);
 function fmt(v,d=3){return Number.isFinite(Number(v))?Number(v).toLocaleString('en-US',{maximumFractionDigits:d}):'--'}

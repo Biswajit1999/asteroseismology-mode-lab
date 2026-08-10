@@ -144,6 +144,17 @@ This is a hand-built approximation of the asymptotic comb (fixed 650 microHz env
 - Aerts, C., Christensen-Dalsgaard, J. and Kurtz, D.W., 2010. Asteroseismology. Springer.
 - Chaplin, W.J. and Miglio, A., 2013. Asteroseismology of solar-type and red-giant stars. Annual Review of Astronomy and Astrophysics, 51, pp.353-392.
 - Kjeldsen, H. and Bedding, T.R., 1995. Amplitudes of stellar oscillations: the implications for asteroseismology. Astronomy and Astrophysics, 293, pp.87-106.
+- Lund, M.N. et al., 2017. Standing on the shoulders of Dwarfs: the Kepler asteroseismic LEGACY sample II - Radii, masses, and ages. The Astrophysical Journal, 835(2), p.172.
+
+## Reference Data: A Real Kepler Target
+
+The reference anchors are no longer generic solar landmarks -- they are placed at the actual
+measured `nu_max = 2089 microHz` and `Delta_nu = 95.5 microHz` for **KIC 5184732 (16 Cygni A)**,
+a well-studied solar-type oscillator from the Kepler asteroseismic LEGACY sample, queried live
+from the VizieR `J/ApJ/835/172` catalog (Lund et al. 2017). The default `nuMax`/`deltaNu` slider
+values now match this real star so the live mode-comb model and the reference envelope agree at
+default settings. The relative envelope amplitude shape at each landmark remains illustrative;
+the frequency positions themselves are the real measured global parameters, not invented.
 
 ## Research Quality Upgrade
 
