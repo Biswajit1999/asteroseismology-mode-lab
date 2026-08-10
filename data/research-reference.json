@@ -1,6 +1,6 @@
 {
   "title": "asteroseismology mode lab",
-  "description": "asteroseismology-mode-lab upgraded with reproducibility metadata and validation.",
+  "description": "Private browser asteroseismology lab with worker-based p-mode simulations and solar-like oscillation reference anchors.",
   "equations": [
     "Repository metadata completeness",
     "Reference-data finite anchor validation",

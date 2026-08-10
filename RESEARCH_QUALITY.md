@@ -4,7 +4,7 @@ This repository has been upgraded with a compact research-quality layer: referen
 
 ## Scope
 
-asteroseismology-mode-lab upgraded with reproducibility metadata and validation.
+Private browser asteroseismology lab with worker-based p-mode simulations and solar-like oscillation reference anchors.
 
 ## Equations And Models
 
