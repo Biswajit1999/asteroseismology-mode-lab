@@ -156,6 +156,24 @@ values now match this real star so the live mode-comb model and the reference en
 default settings. The relative envelope amplitude shape at each landmark remains illustrative;
 the frequency positions themselves are the real measured global parameters, not invented.
 
+## What Mass and Radius Actually Tell Us: Evolutionary State
+
+The `EVOLUTIONARY STATE` readout classifies the star by `radius_proxy_Rsun` alone -- a
+genuinely reliable diagnostic for solar-like oscillators, since a star's envelope expands
+substantially as it evolves off the main sequence while `nu_max` and `Delta_nu` both drop
+(Chaplin & Miglio, 2013, *ARA&A*, 51, pp.353-392, section 3):
+
+- `R < 1.5 Rsun` -- main-sequence dwarf, still core-hydrogen-burning.
+- `1.5-3 Rsun` -- subgiant, hydrogen shell burning has begun.
+- `3-10 Rsun` -- red giant branch, degenerate helium core with a large convective envelope.
+- `> 10 Rsun` -- luminous giant, where the scaling relations become increasingly approximate.
+
+At the default parameters (the real KIC 5184732 / 16 Cygni A values), this correctly reads
+**main-sequence dwarf** -- 16 Cygni A is a genuine solar analog still on the main sequence, so
+the classification is a real, verifiable check rather than an arbitrary label. Drag `nuMax`
+down and `deltaNu` down together (both drop as a star evolves) to watch the classification
+move through subgiant into red-giant-branch territory.
+
 ## Research Quality Upgrade
 
 See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
