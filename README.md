@@ -173,7 +173,3 @@ At the default parameters (the real KIC 5184732 / 16 Cygni A values), this corre
 the classification is a real, verifiable check rather than an arbitrary label. Drag `nuMax`
 down and `deltaNu` down together (both drop as a star evolves) to watch the classification
 move through subgiant into red-giant-branch territory.
-
-## Research Quality Upgrade
-
-See [RESEARCH_QUALITY.md](RESEARCH_QUALITY.md) for the validation layer, reference anchors, equations and research boundaries added to this repository.
