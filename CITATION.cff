@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite it using this metadata."
+title: "Asteroseismology Mode Lab"
+abstract: "Solar-like p-mode combs, large separations and mode-envelope diagnostics."
+type: software
+authors:
+  - family-names: Jana
+    given-names: Biswajit
+repository-code: "https://github.com/Biswajit1999/asteroseismology-mode-lab"
+url: "https://biswajit1999.github.io/asteroseismology-mode-lab/"
+keywords:
+  - "astronomy"
+  - "astrophysics"
+  - "scientific computing"
+  - "asteroseismology"
+  - "stellar oscillations"
+  - "stellar structure"
