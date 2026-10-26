@@ -1,0 +1,43 @@
+{
+  "reference_object": "16 Cygni A",
+  "source": "https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/ApJ/835/172",
+  "measured_inputs": {
+    "numax_microHz": 2089.0,
+    "delta_nu_microHz": 95.5,
+    "teff_K": 5846.0
+  },
+  "temperature_bias": {
+    "mass_with_teff": 1.261381695113451,
+    "radius_with_teff": 1.3616019343930719,
+    "mass_solar_teff_proxy": 1.2375073624681197,
+    "radius_solar_teff_proxy": 1.3529567553407458,
+    "fractional_mass_proxy_bias": -0.018927127877168215,
+    "fractional_radius_proxy_bias": -0.006349270542259977
+  },
+  "uncertainty_assumptions": "illustrative lognormal 1%, 0.3%, 1.5%; correlations 0.35 and -0.15; not LEGACY errors",
+  "analytic_log_covariance": [
+    [
+      0.00137925,
+      0.0004695
+    ],
+    [
+      0.00046950000000000003,
+      0.00016375
+    ]
+  ],
+  "mc_log_covariance": [
+    [
+      0.0013775081997756552,
+      0.00046852873594494036
+    ],
+    [
+      0.00046852873594494036,
+      0.00016326500558335138
+    ]
+  ],
+  "mc_draws": 30000,
+  "asymptotic_assumptions": "epsilon=1.2, D0=1.3 microHz, not fitted to KIC 5184732",
+  "small_separation_02_microHz": 7.7999999999999545,
+  "mode_count": 36,
+  "limitations": "global scaling only; no stellar-model corrections, observed mode fitting, or age determination"
+}
