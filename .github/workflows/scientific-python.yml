@@ -18,3 +18,7 @@ jobs:
       - run: python -m pytest -q tests/test_seismic_diagnostics.py
       - run: python scripts/run_seismic_diagnostics.py
       - run: python scripts/plot_seismic_diagnostics.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm run check && npm run validate:research
