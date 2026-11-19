@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "project": "Asteroseismology Mode Lab",
+  "repository": "https://github.com/Biswajit1999/asteroseismology-mode-lab",
+  "files": [
+    {
+      "label": "Reference",
+      "path": "data/reference.json",
+      "role": "Data and provenance",
+      "bytes": 1814,
+      "sha256": "1679c354b3931faed4cd8d145ca51ed70f8db7232c2a5b2d70dfadf834419b9f",
+      "hash_basis": "LF-normalised text",
+      "format": "JSON",
+      "keys": [
+        "dataset",
+        "source",
+        "source_url",
+        "citation",
+        "measured_parameters",
+        "x_label",
+        "y_label"
+      ],
+      "arrays": {
+        "points": 5,
+        "requiredCitations": 2
+      }
+    },
+    {
+      "label": "Research reference",
+      "path": "data/research-reference.json",
+      "role": "Data and provenance",
+      "bytes": 702,
+      "sha256": "d625dfbb304d9abcf88ae656154141efcf4b680d5e9efe9f51375689fa5c6f4b",
+      "hash_basis": "LF-normalised text",
+      "format": "JSON",
+      "keys": [
+        "title",
+        "description",
+        "equations",
+        "references",
+        "anchors"
+      ],
+      "arrays": {
+        "equations": 3,
+        "references": 1,
+        "anchors": 3
+      }
+    }
+  ]
+}

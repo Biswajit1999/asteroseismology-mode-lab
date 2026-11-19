@@ -1,0 +1,16 @@
+{
+  "project": "Asteroseismology Mode Lab",
+  "repository": "https://github.com/Biswajit1999/asteroseismology-mode-lab",
+  "files": [
+    {
+      "label": "Reference",
+      "path": "data/reference.json",
+      "role": "Data and provenance"
+    },
+    {
+      "label": "Research reference",
+      "path": "data/research-reference.json",
+      "role": "Data and provenance"
+    }
+  ]
+}
