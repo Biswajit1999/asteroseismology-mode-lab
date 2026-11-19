@@ -4,6 +4,12 @@ Solar-like p-mode combs, large separations and mode-envelope diagnostics.
 
 Created and maintained by Biswajit Jana.
 
+## Research evidence and downloads
+
+[Open the evidence browser](https://biswajit1999.github.io/asteroseismology-mode-lab/evidence.html) for 2 selected files, including [`reference.json`](data/reference.json). Each file has a download link and SHA-256 digest.
+
+Rebuild the inventory and browser with `python scripts/evidence_catalog.py` and `python scripts/render_evidence_page.py`.
+
 ## Scientific Purpose
 
 This zero-build browser laboratory puts a compact reference-data bundle in front of the simulation. The app loads `data/reference.json`, renders those published anchors first, then sends the adjustable model to `physicsWorker.js` so numerical work stays off the UI thread. It is a teaching/exploration tool for the shape of a solar-like oscillation power spectrum, not a fitting pipeline for real time-series data.
