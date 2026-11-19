@@ -19,18 +19,25 @@ figcaption{margin-top:.6rem;color:#3b5362}.meta{color:#3b5362;font-size:.9rem}
 details{margin:.55rem 0}summary{cursor:pointer}code{overflow-wrap:anywhere}
 .table-scroll{overflow:auto}table{border-collapse:collapse;width:100%;font-size:.85rem}
 th,td{text-align:left;vertical-align:top;padding:.4rem;border-bottom:1px solid #dce3e7}
-a:focus-visible,summary:focus-visible{outline:2px solid #7b4107;outline-offset:3px}
+.index ul{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin:1rem 0 0;padding:0;list-style:none}
+.skip{position:absolute;top:0;left:.5rem;background:#fff;padding:.7rem;transform:translateY(-120%)}
+.skip:focus{transform:none;z-index:1}article:target{outline:3px solid #44687d;scroll-margin-top:1rem}
+.table-scroll:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #7b4107;outline-offset:3px}
 </style>
 </head>
 <body>
+<a class="skip" href="#evidence-content">Skip to file list</a>
 <main>
 <header>
 <nav aria-label="Evidence links"><a href="https://github.com/Biswajit1999/asteroseismology-mode-lab#readme">Methods and references</a><a href="evidence/manifest.json" download>Download the file inventory</a></nav>
 <h1>Asteroseismology Mode Lab</h1>
 <p>Browse 2 versioned evidence files. Table previews simply display stored rows. Consult the project report for the source, processing steps, and inference assumptions.</p>
 </header>
+<div id="evidence-content">
+<nav aria-label="On this page" class="index"><ul><li><a href="#group-data-and-provenance">Data and provenance (2)</a></li></ul></nav>
 
-<section><h2>Data and provenance</h2><div class="grid"><article><h3><a href="data/reference.json">Reference</a></h3><p class="meta">JSON · 1,814 bytes · Array lengths points: 5, requiredCitations: 2</p><p><a href="data/reference.json" download>Download JSON</a></p><details><summary>SHA-256, LF-normalised text</summary><code>1679c354b3931faed4cd8d145ca51ed70f8db7232c2a5b2d70dfadf834419b9f</code></details></article><article><h3><a href="data/research-reference.json">Research reference</a></h3><p class="meta">JSON · 702 bytes · Array lengths equations: 3, references: 1, anchors: 3</p><p><a href="data/research-reference.json" download>Download JSON</a></p><details><summary>SHA-256, LF-normalised text</summary><code>d625dfbb304d9abcf88ae656154141efcf4b680d5e9efe9f51375689fa5c6f4b</code></details></article></div></section>
+<section id="group-data-and-provenance"><h2>Data and provenance</h2><div class="grid"><article id="file-5babe3f63654b343"><h3><a href="data/reference.json">Reference</a></h3><p class="meta">JSON · 1,814 bytes · Array lengths points: 5, requiredCitations: 2</p><p><a href="data/reference.json" download>Download JSON</a> · <a href="#file-5babe3f63654b343" aria-label="Link to Reference">Permalink</a></p><details><summary>SHA-256, LF-normalised text</summary><code>1679c354b3931faed4cd8d145ca51ed70f8db7232c2a5b2d70dfadf834419b9f</code></details></article><article id="file-bd1b189b939be113"><h3><a href="data/research-reference.json">Research reference</a></h3><p class="meta">JSON · 702 bytes · Array lengths equations: 3, references: 1, anchors: 3</p><p><a href="data/research-reference.json" download>Download JSON</a> · <a href="#file-bd1b189b939be113" aria-label="Link to Research reference">Permalink</a></p><details><summary>SHA-256, LF-normalised text</summary><code>d625dfbb304d9abcf88ae656154141efcf4b680d5e9efe9f51375689fa5c6f4b</code></details></article></div></section>
+</div>
 <p class="scope">SHA-256 values verify the stored files. They do not independently validate the scientific analysis. Rebuild this page with <code>python scripts/evidence_catalog.py</code> followed by <code>python scripts/render_evidence_page.py</code>.</p>
 </main>
 </body>
